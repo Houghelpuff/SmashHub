@@ -1,0 +1,22 @@
+{
+  "bayonetta": {
+    "name": "Bayonetta",
+    "type": "brawler",
+    "game": "Bayonetta",
+    "tier": 5,
+    "total_fights": 0,
+    "wins": 0,
+    "losses": 0,
+    "image": "resources/img/fighters/bayonetta.png"
+  },
+  "bowser": {
+    "name": "Bowser",
+    "type": "brawler",
+    "game": "Mario",
+    "tier": 4,
+    "total_fights": 0,
+    "wins": 0,
+    "losses": 0,
+    "image": "resources/img/fighters/bowser.png"
+  }
+}
