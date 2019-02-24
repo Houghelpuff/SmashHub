@@ -1,0 +1,29 @@
+table, tr, td {
+  height: 50px;
+  width: 600px;
+}
+
+td {
+  text-align: center;
+}
+
+.bottom_border {
+  border-bottom: 2px solid black;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+
+.top_border {
+  border-top: 2px solid black;
+  border-bottom: none;
+  border-right: none;
+  border-left: none;
+}
+
+.right_border {
+  border-right: 2px solid black;
+  border-bottom: none;
+  border-top: none;
+  border-left: none;
+}
