@@ -10,11 +10,24 @@
   <link rel="stylesheet" type="text/css" href="../resources/css/fighters-players.css">
 </head>
 
-<body>
+<body onload="populateDropdown()">
   <div class="container">
     <div class="row">
       <div class="col-2">
         <button class="btn btn-secondary" onclick="location.href='../index.html'">Home</button>
+      </div>
+      <div class="col-2">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          Select Fighter
+        </button>
+        <div class="dropdown-menu scrollable-menu" id="player-dropdown" aria-labelledby="dropdownMenuButton">
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-2">
+        <img
       </div>
     </div>
   </div>
