@@ -539,6 +539,16 @@
     "losses": 0,
     "image": "resources/img/fighters/wario.png"
   },
+  "wiibrawler": {
+    "name": "Mii Brawler",
+    "type": "Brawler",
+    "game": "Wii",
+    "tier": 2,
+    "total_fights": 0,
+    "wins": 0,
+    "losses": 0,
+    "image": "resources/img/fighters/wiibrawler.png"
+  },
   "wiifittrainer": {
     "name": "Wii Fit Trainer",
     "type": "Brawler",
@@ -549,7 +559,7 @@
     "losses": 0,
     "image": "resources/img/fighters/wiifittrainer.png"
   },
-  "wiiGunner": {
+  "wiigunner": {
     "name": "Mii Gunner",
     "type": "Gunner",
     "game": "Wii",
@@ -562,7 +572,7 @@
   "wiiswordsman": {
     "name": "Mii Swordsfighter",
     "type": "Swordfighter",
-    "game": "Pokémon",
+    "game": "Wii",
     "tier": 3,
     "total_fights": 0,
     "wins": 0,
