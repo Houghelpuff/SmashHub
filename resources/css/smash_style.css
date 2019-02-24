@@ -1,0 +1,29 @@
+body {
+  background-image: url('../img/bg-gradient.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.header_div {
+  text-align: center;
+  background: #5e060679;
+  margin-top: 30px;
+}
+
+.form_div {
+  background: #353535a2;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.form-group {
+  margin-top: 10px;
+  display: block;
+}
+
+.custom-select {
+  width: 400px;
+  background-color: rgb(70, 70, 70);
+  color: white;
+}
