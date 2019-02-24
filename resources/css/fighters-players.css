@@ -1,0 +1,15 @@
+body {
+  background-image: url("../img/bg-gradient.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.scrollable-menu {
+  height: auto;
+  max-height: 1000%;
+  overflow-x: hidden;
+}
+
+.fighter-stats {
+  background-color: azure;
+}
