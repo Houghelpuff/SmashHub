@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous">
+  <title>Smash Hub | Fighters</title>
+
+  <link rel="stylesheet" type="text/css" href="../resources/css/fighters-players.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-2">
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Select Fighter
+          </button>
+          <div class="dropdown-menu scrollable-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#" onclick='displayFighterStats("bayonetta")'>Bayonetta</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" onclick='displayFighterStats("bowser")'>Bowser</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" onclick='displayFighterStats("bowserjr")'>Bowser Jr.</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" onclick='displayFighterStats("captainfalcon")'>Captain Falcon</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" onclick='displayFighterStats("cloud")'>Cloud</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" onclick='displayFighterStats("corrin")'>Corrin</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" onclick='displayFighterStats("daisy")'>Daisy</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" onclick='displayFighterStats("darkpit")'>Dark Pit</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" onclick='displayFighterStats("diddykong")'>Diddy Kong</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" onclick='displayFighterStats("drmario")'>Doctor Mario</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" onclick='displayFighterStats("duckhunt")'>Duck Hunt</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" onclick='displayFighterStats("fox")'>Fox</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" onclick='displayFighterStats("gannon")'>Ganondorf</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" onclick='displayFighterStats("greninja")'>Greninja</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" onclick='displayFighterStats("iceclimbers")'>Ice Climbers</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" onclick='displayFighterStats("ike")'>Ike</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" onclick='displayFighterStats("inkling")'>Inkling</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" onclick='displayFighterStats("jigglypuff")'>Jigglypuff</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" onclick='displayFighterStats("kingdedede")'>King Dedede</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" onclick='displayFighterStats("kirby")'>Kirby</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" onclick='displayFighterStats("link")'>Link</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" onclick='displayFighterStats("littlemac")'>Little Mac</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" onclick='displayFighterStats("lucario")'>Lucario</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" onclick='displayFighterStats("lucas")'>Lucas</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" onclick='displayFighterStats("lucina")'>Lucina</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" onclick='displayFighterStats("luigi")'>Luigi</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" onclick='displayFighterStats("mario")'>Mario</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" onclick='displayFighterStats("marth")'>Marth</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" onclick='displayFighterStats("megaman")'>Mega-Man</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" onclick='displayFighterStats("mewtwo")'>Mew-Two</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" onclick='displayFighterStats("mrgameandwatch")'>Mr. Game & Watch</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" onclick='displayFighterStats("ness")'>Ness</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" onclick='displayFighterStats("olimar")'>Olimar</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" onclick='displayFighterStats("pacman")'>Pac-Man</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" onclick='displayFighterStats("peach")'>Peach</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" onclick='displayFighterStats("pichu")'>Pichu</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" onclick='displayFighterStats("pikachu")'>Pikachu</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" onclick='displayFighterStats("pit")'>Pit</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" onclick='displayFighterStats("pokemontrainer")'>Pokémon Trainer</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" onclick='displayFighterStats("ridley")'>Ridley</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" onclick='displayFighterStats("rob")'>R.O.B.</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" onclick='displayFighterStats("robin")'>Robin</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" onclick='displayFighterStats("rosalina")'>Rosalina</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" onclick='displayFighterStats("roy")'>Roy</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" onclick='displayFighterStats("ryu")'>Ryu</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" onclick='displayFighterStats("samus")'>Samus</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" onclick='displayFighterStats("sheik")'>Sheik</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" onclick='displayFighterStats("snake")'>Snake</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" onclick='displayFighterStats("sonic")'>Sonic</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" onclick='displayFighterStats("toonlink")'>Toon Link</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" onclick='displayFighterStats("villager")'>Villager</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" onclick='displayFighterStats("wario")'>Wario</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" onclick='displayFighterStats("wiibrawler")'>Wii Brawler</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" onclick='displayFighterStats("wiifittrainer")'>Wii Fit Trainer</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" onclick='displayFighterStats("wiigunner")'>Wii Gunner</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" onclick='displayFighterStats("wiiswordsman")'>Wii Swordsman</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" onclick='displayFighterStats("wolf")'>Wolf</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" onclick='displayFighterStats("yoshi")'>Yoshi</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" onclick='displayFighterStats("younglink")'>Young Link</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" onclick='displayFighterStats("zelda")'>Zelda</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" onclick='displayFighterStats("zerosuitsamus")'>Zero Suit Samus</a>
+            <div class="dropdown-divider"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-4">
+        <img id="fighterImage" src="" alt="">
+      </div>
+      <div class="col-8">
+        <div class="fighter-stats">
+          <table>
+            <tr>
+              <th>Name: </th>
+              <td><span id="f-name"></span></td>
+            </tr>
+            <tr>
+              <th>Type: </th>
+              <td><span id="f-type"></span></td>
+            </tr>
+            <tr>
+              <th>Origin Game: </th>
+              <td><span id="f-game"></span></td>
+            </tr>
+            <tr>
+              <th>Tier: </th>
+              <td><span id="f-tier"></span></td>
+            </tr>
+            <tr>
+              <th>Total Fights: </th>
+              <td><span id="f-total"></span></td>
+            </tr>
+            <tr>
+              <th>Wins: </th>
+              <td><span id="f-wins"></span></td>
+            </tr>
+            <tr>
+              <th>Losses: </th>
+              <td><span id="f-losses"></span></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+<!-- Bootstrap Scripts -->
+<script src="../scripts.js"></script>
+<script src="../scripts/fighters.js"></script>
+
+</html>
