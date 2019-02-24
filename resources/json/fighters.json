@@ -560,7 +560,7 @@
     "image": "resources/img/fighters/wiiGunner.png"
   },
   "wiiswordsman": {
-    "name": "Mii Swords Man",
+    "name": "Mii Swordsfighter",
     "type": "Swordfighter",
     "game": "Pokémon",
     "tier": 3,
