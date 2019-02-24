@@ -4,3 +4,53 @@ body {
   background-size: cover;
 }
 
+.div_test {
+  border: 1px solid green;
+}
+
+.main_menu_btns_div {
+  margin-top: 250px;
+  margin-right: 100px;
+}
+
+.btn_main_menu {
+  background-color: #d9b0ff;
+  position: relative;
+  border: none;
+  font-size: 28px;
+  color: white;
+  padding: 20px;
+  width: 300px;
+  height: 75px;
+  text-align: center;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow:  0 3px 5px 3px rgba(0,0,0,0.24), 0 3px 0 0 rgba(0,0,0,0.19);
+}
+
+.btn_main_menu:after {
+  content: "";
+  background: white;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -50%;
+  opacity: 0;
+  transition: all 0.6s;
+}
+
+.btn_main_menu:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s;
+}
+
+.btn_main_menu:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 100px 0 rgba(0,0,0,0.19);
+}
