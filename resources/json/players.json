@@ -1,0 +1,642 @@
+{
+  "nick": {
+    "fighters": {
+      "bayonetta": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "bowser": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "bowserjr": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "captainfalcon": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "cloud": {
+        "times_used": 3,
+        "wins": 2,
+        "losses": 1
+      },
+      "corrin": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "daisy": {
+        "times_used": 2,
+        "wins": 0,
+        "losses": 2
+      },
+      "darkpit": {
+        "times_used": 1,
+        "wins": 1,
+        "losses": 0
+      },
+      "diddykong": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "donkeykong": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "drmario": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "duckhunt": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "fox": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "ganondorf": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "greninja": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "iceclimbers": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "ike": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "inkling": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "jigglypuff": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "kingdedede": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "kirby": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "link": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "littlemac": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "lucario": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "lucas": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "lucina": {
+        "times_used": 20,
+        "wins": 0,
+        "losses": 0
+      },
+      "luigi": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "mario": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "marth": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "metaknight": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "mewtwo": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "mrgameandwatch": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "ness": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "olimar": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "pacman": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "peach": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "pichu": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "pikachu": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "pit": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "pokemontrainer": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "ridley": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "rob": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "robin": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "rosalina": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "roy": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "ryu": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "samus": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "sheik": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "snake": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "sonic": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "toonlink": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "villager": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "wario": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "wiibrawler": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "wiifittrainer": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "wiigunner": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "wiiswordsman": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "wolf": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "yoshi": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "younglink": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "zelda": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "zerosuitsamus": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      }
+    },
+    "total_plays": 6,
+    "wins": 4,
+    "losses": 2,
+    "most_used": "lucina",
+    "best": "cloud",
+    "worst": "daisy"
+  },
+  "jacob": {
+    "fighters": {
+      "bayonetta": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "bowser": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "bowserjr": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "captainfalcon": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "cloud": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "corrin": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "daisy": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "darkpit": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "diddykong": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "donkeykong": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "drmario": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "duckhunt": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "fox": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "ganondorf": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "greninja": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "iceclimbers": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "ike": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "inkling": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "jigglypuff": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "kingdedede": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "kirby": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "link": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "littlemac": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "lucario": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "lucas": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "lucina": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "luigi": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "mario": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "marth": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "metaknight": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "mewtwo": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "mrgameandwatch": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "ness": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "olimar": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "pacman": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "peach": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "pichu": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "pikachu": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "pit": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "pokemontrainer": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "ridley": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "rob": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "robin": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "rosalina": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "roy": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "ryu": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "samus": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "sheik": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "snake": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "sonic": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "toonlink": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "villager": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "wario": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "wiibrawler": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "wiifittrainer": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "wiigunner": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "wiiswordsman": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "wolf": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "yoshi": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "younglink": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "zelda": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "zerosuitsamus": {
+        "times_used": 0,
+        "wins": 0,
+        "losses": 0
+      }
+    },
+    "total_plays": 0,
+    "wins": 0,
+    "losses": 0,
+    "most_used": "mario",
+    "best": "mario",
+    "worst": "mario"
+  }
+}

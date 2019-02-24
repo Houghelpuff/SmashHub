@@ -129,7 +129,7 @@
     "losses": 0,
     "image": "resources/img/fighters/fox.png"
   },
-  "gannon": {
+  "ganondorf": {
     "name": "Ganondorf",
     "type": "Brawler",
     "game": "The Legend of Zelda",
