@@ -316,5 +316,6 @@
   "losses": 0,
   "most_used": "mario",
   "best": "mario",
-  "worst": "mario"
+  "worst": "mario",
+  "current": "mario"
 }
