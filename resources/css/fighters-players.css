@@ -2,6 +2,12 @@ body {
   background-image: url("../img/bg-gradient.png");
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: myFirstFont;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url('../super_smash_4_1_by_pokemon_diamond-d7zxu6d.ttf')
 }
 
 .scrollable-menu {
@@ -10,6 +16,49 @@ body {
   overflow-x: hidden;
 }
 
-.fighter-stats {
-  background-color: azure;
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  background-color: rgb(97, 11, 11);
 }
+
+.fighter-button-margin {
+  margin-left: -15px;
+}
+
+.fighter-buttons-top-space {
+  margin-top: 30px;
+}
+
+.vertical-center {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.fighter-table-top-space {
+  margin-top: 150px;
+}
+
+.fighter-picture-margin {
+  margin-left: -60px;
+}
+
+.fighter-buttons {
+  background-color: rgb(65, 65, 65);
+}
+
+.fighter-buttons:hover {
+  background-color: rgb(97, 11, 11);
+}
+
+.dropdown-menu {
+  background-color: rgb(65, 65, 65);
+}
+
+.dropdown-item {
+  color: white;
+}
+
+.dropdown-item:hover {
+  background-color: rgb(97, 11, 11);
+  color: white;
+}
+

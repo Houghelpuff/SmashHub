@@ -9,18 +9,21 @@
   <title>Smash Hub | Fighters</title>
 
   <link rel="stylesheet" type="text/css" href="../resources/css/fighters-players.css">
+  <link rel="stylesheet" type="text/css" href="../resources/css/main_style.css">
 </head>
 
 <body>
   <div class="container">
-    <div class="row">
+    <div class="row fighter-buttons-top-space">
+      <div class="col-1">
+        <button class="btn btn-secondary fighter-buttons" onclick="location.href='../index.html'">Home</button>
+      </div>
       <div class="col-2">
-        <button class="btn btn-secondary" onclick="location.href='../index.html'">Home</button>
         <div class="dropdown">
-          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-            Select Fighter
-          </button>
+          <button class="btn btn-secondary dropdown-toggle fighter-button-margin fighter-buttons" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          Select Fighter
+        </button>
           <div class="dropdown-menu scrollable-menu" aria-labelledby="dropdownMenuButton">
             <a class="dropdown-item" href="#" onclick='displayFighterStats("bayonetta")'>Bayonetta</a>
             <div class="dropdown-divider"></div>
@@ -152,13 +155,13 @@
         </div>
       </div>
     </div>
-    <div class="row">
+    <div class="row fighter-table-top-space">
       <div class="col-4">
-        <img id="fighter-image" src="" alt="" height="100%" width="100%">
+        <img class="fighter-picture-margin" id="fighter-image" src="" alt="" height="100%" width="100%">
       </div>
       <div class="col-8">
         <div class="fighter-stats">
-          <table>
+          <table class="table table-hover table-dark">
             <tr>
               <th>Name: </th>
               <td><span id="f-name"></span></td>

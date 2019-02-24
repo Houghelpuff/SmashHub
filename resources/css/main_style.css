@@ -1,4 +1,4 @@
-body {
+.home_body {
   background-image: url('../img/main_bg.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -8,9 +8,6 @@ body {
   border: 1px solid green;
 }
 
-.main_menu_btns_div {
-  margin-right: 100px;
-}
 
 @font-face {
   font-family: myFirstFont;
