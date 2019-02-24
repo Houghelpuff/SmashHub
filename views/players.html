@@ -12,22 +12,86 @@
 
 <body onload="populateDropdown()">
   <div class="container">
-    <div class="row">
-      <div class="col-2">
-        <button class="btn btn-secondary" onclick="location.href='../index.html'">Home</button>
+    <div class="row fighter-buttons-top-space">
+      <div class="col-1">
+        <button class="btn btn-secondary fighter-buttons" onclick="location.href='../index.html'">Home</button>
       </div>
       <div class="col-2">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-          aria-haspopup="true" aria-expanded="false">
-          Select Fighter
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle fighter-button-margin fighter-buttons" type="button" id="dropdownMenuButton"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Select Player
+          </button>
+          <div class="dropdown-menu scrollable-menu" id="player-dropdown" aria-labelledby="dropdownMenuButton">
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-secondary fighter-buttons" data-toggle="modal" data-target="#playerModal">
+          Add Player
         </button>
-        <div class="dropdown-menu scrollable-menu" id="player-dropdown" aria-labelledby="dropdownMenuButton">
+
+        <!-- Modal -->
+        <div class="modal fade" id="playerModal" tabindex="-1" role="dialog" aria-labelledby="playerModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="playerModalLabel">Enter Player Username</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <input type="text" placeholder="Username (no spaces)" id="newPlayer">
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" onclick="createNewPlayer()">Save changes</button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-2">
-        <img
+    <div class="row fighter-table-top-space">
+      <div class="col-4">
+        <img class="fighter-picture-margin" id="fighter-image" src="" alt="" height="100%" width="100%">
+      </div>
+      <div class="col-8">
+        <div class="fighter-stats">
+          <table class="table table-hover table-dark">
+            <tr>
+              <th>Name: </th>
+              <td><span id="p-name"></span></td>
+            </tr>
+            <tr>
+              <th>Games Played: </th>
+              <td><span id="p-total"></span></td>
+            </tr>
+            <tr>
+              <th>Wins: </th>
+              <td><span id="p-wins"></span></td>
+            </tr>
+            <tr>
+              <th>Losses: </th>
+              <td><span id="p-losses"></span></td>
+            </tr>
+            <tr>
+              <th>Most Played: </th>
+              <td><span id="p-most"></span></td>
+            </tr>
+            <tr>
+              <th>Best Fighter: </th>
+              <td><span id="p-best"></span></td>
+            </tr>
+            <tr>
+              <th>Worst Fighter: </th>
+              <td><span id="p-worst"></span></td>
+            </tr>
+          </table>
+        </div>
       </div>
     </div>
   </div>
