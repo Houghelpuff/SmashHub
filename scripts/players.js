@@ -48,6 +48,7 @@ function createNewPlayer() {
   savePlayers(players_json);
   alert("Player Created!");
   document.getElementById("newPlayer").value = "";
+  location.reload();
 }
 
 function getMostPlayed(playerKey, json) {
