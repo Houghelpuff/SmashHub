@@ -311,8 +311,10 @@
       "losses": 0
     }
   },
-  "total-plays": 0,
+  "total_plays": 0,
   "wins": 0,
   "losses": 0,
-  "most-used": "mario"
+  "most_used": "mario",
+  "best": "mario",
+  "worst": "mario"
 }
