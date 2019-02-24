@@ -6,21 +6,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
     crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="resources/css/main_style.css">
-    
-    <title>Smash Hub</title>
+  <link rel="stylesheet" type="text/css" href="resources/css/main_style.css">
+
+  <title>Smash Hub</title>
 </head>
 
-<body> 
+<body>
   <div class="container-fluid d-flex justify-content-center">
     <div class="col-12 logo-header">
       <img src="resources/img/logo.png">
     </div>
   </div>
   <div class="col-4 float-right main_menu_btns_div d-flex justify-content-center btn-group-vertical">
-      <button class="btn btn_main_menu"><h1><b>Smash O</b></h1></button>
-      <button class="btn btn_main_menu"><h1><b>Players</b></h1></button>
-      <button class="btn btn_main_menu"><h1><b>Fighters</b></h1></button>
+    <button class="btn btn_main_menu">
+      <h1><b>Smash O</b></h1>
+    </button>
+    <button class="btn btn_main_menu">
+      <h1><b>Players</b></h1>
+    </button>
+    <button class="btn btn_main_menu" onclick="location.href='views/fighters.html'">
+      <h1><b>Fighters</b></h1>
+    </button>
   </div>
 </body>
 
