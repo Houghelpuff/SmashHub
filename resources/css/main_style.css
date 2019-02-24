@@ -9,17 +9,26 @@ body {
 }
 
 .main_menu_btns_div {
-  margin-top: 250px;
   margin-right: 100px;
 }
 
+@font-face {
+  font-family: myFirstFont;
+  src: url('../super_smash_4_1_by_pokemon_diamond-d7zxu6d.ttf')
+}
+
+
+
 .btn_main_menu {
-  background-color: #d9b0ff;
+  font-family: myFirstFont;
+  background: #ff3b3b;
+  /* background-color: #d9b0ff; */
   position: relative;
-  border: none;
+  border: 1px solid rgb(116, 116, 116);
   font-size: 28px;
-  color: white;
+  color: black;
   padding: 20px;
+  padding-top: 10px;
   width: 300px;
   height: 75px;
   text-align: center;
@@ -29,11 +38,12 @@ body {
   overflow: hidden;
   cursor: pointer;
   box-shadow:  0 3px 5px 3px rgba(0,0,0,0.24), 0 3px 0 0 rgba(0,0,0,0.19);
+  margin-bottom: 15px;
 }
 
 .btn_main_menu:after {
   content: "";
-  background: white;
+  background: #ff3b3b;
   display: block;
   position: absolute;
   padding-top: 300%;
@@ -53,4 +63,11 @@ body {
 
 .btn_main_menu:hover {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 100px 0 rgba(0,0,0,0.19);
+  color: #ff3b3b;
+  background-color: black
 }
+
+.logo-header {
+  text-align: center;
+}
+
