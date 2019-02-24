@@ -22,9 +22,9 @@
         "losses": 0
       },
       "cloud": {
-        "times_used": 0,
-        "wins": 0,
-        "losses": 0
+        "times_used": 3,
+        "wins": 2,
+        "losses": 1
       },
       "corrin": {
         "times_used": 0,
@@ -32,13 +32,13 @@
         "losses": 0
       },
       "daisy": {
-        "times_used": 0,
+        "times_used": 2,
         "wins": 0,
-        "losses": 0
+        "losses": 2
       },
       "darkpit": {
-        "times_used": 0,
-        "wins": 0,
+        "times_used": 1,
+        "wins": 1,
         "losses": 0
       },
       "diddykong": {
@@ -127,7 +127,7 @@
         "losses": 0
       },
       "lucina": {
-        "times_used": 0,
+        "times_used": 20,
         "wins": 0,
         "losses": 0
       },
@@ -312,10 +312,12 @@
         "losses": 0
       }
     },
-    "total-plays": 0,
-    "wins": 0,
-    "losses": 0,
-    "most-used": "mario"
+    "total_plays": 6,
+    "wins": 4,
+    "losses": 2,
+    "most_used": "lucina",
+    "best": "cloud",
+    "worst": "daisy"
   },
   "jacob": {
     "fighters": {
@@ -630,9 +632,11 @@
         "losses": 0
       }
     },
-    "total-plays": 0,
+    "total_plays": 0,
     "wins": 0,
     "losses": 0,
-    "most-used": "mario"
+    "most_used": "mario",
+    "best": "mario",
+    "worst": "mario"
   }
 }
