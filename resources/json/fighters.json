@@ -1,7 +1,7 @@
 {
   "bayonetta": {
     "name": "Bayonetta",
-    "type": "brawler",
+    "type": "Brawler",
     "game": "Bayonetta",
     "tier": 5,
     "total_fights": 0,
@@ -11,7 +11,7 @@
   },
   "bowser": {
     "name": "Bowser",
-    "type": "brawler",
+    "type": "Brawler",
     "game": "Mario",
     "tier": 4,
     "total_fights": 0,
@@ -21,7 +21,7 @@
   },
   "bowserjr": {
     "name": "Bowser Jr.",
-    "type": "brawler",
+    "type": "Brawler",
     "game": "Mario",
     "tier": 1,
     "total_fights": 0,
@@ -31,7 +31,7 @@
   },
   "captainfalcon": {
     "name": "Captain Falcon",
-    "type": "brawler",
+    "type": "Brawler",
     "game": "F-Zero",
     "tier": 4,
     "total_fights": 0,
@@ -41,8 +41,8 @@
   },
   "cloud": {
     "name": "Cloud",
-    "type": "sword",
-    "game": "Final Fantasy VII",
+    "type": "Swordfighter",
+    "game": "Final Fantasy",
     "tier": 5,
     "total_fights": 0,
     "wins": 0,
@@ -51,8 +51,8 @@
   },
   "corrin": {
     "name": "Corrin",
-    "type": "sword",
-    "game": "Fire Emblem Fates: Birthright and Fire Emblem Fates: Conquest",
+    "type": "Swordfighter",
+    "game": "Fire Emblem",
     "tier": 3,
     "total_fights": 0,
     "wins": 0,
@@ -61,7 +61,7 @@
   },
   "daisy": {
     "name": "Daisy",
-    "type": "brawler",
+    "type": "Brawler",
     "game": "Mario",
     "tier": 5,
     "total_fights": 0,
@@ -71,7 +71,7 @@
   },
   "darkpit": {
     "name": "Dark Pit",
-    "type": "sword",
+    "type": "Swordfighter",
     "game": "Kid Icarus",
     "tier": 2,
     "total_fights": 0,
@@ -81,7 +81,7 @@
   },
   "diddykong": {
     "name": "Diddy Kong",
-    "type": "brawler",
+    "type": "Brawler",
     "game": "Donkey Kong Country",
     "tier": 4,
     "total_fights": 0,
@@ -91,7 +91,7 @@
   },
   "donkeykong": {
     "name": "Donkey Kong",
-    "type": "brawler",
+    "type": "Brawler",
     "game": "Donkey Kong Country",
     "tier": 5,
     "total_fights": 0,
@@ -101,8 +101,8 @@
   },
   "drmario": {
     "name": "Dr. Mario",
-    "type": "brawler",
-    "game": "Dr. Mario",
+    "type": "Brawler",
+    "game": "Mario",
     "tier": 1,
     "total_fights": 0,
     "wins": 0,
@@ -111,7 +111,7 @@
   },
   "duckhunt": {
     "name": "Duck Hunt",
-    "type": "gunner",
+    "type": "Gunner",
     "game": "Duck Hunt",
     "tier": 0,
     "total_fights": 0,
@@ -121,7 +121,7 @@
   },
   "fox": {
     "name": "Fox",
-    "type": "brawler",
+    "type": "Brawler",
     "game": "Star Fox",
     "tier": 5,
     "total_fights": 0,
@@ -130,8 +130,8 @@
     "image": "resources/img/fighters/fox.png"
   },
   "gannon": {
-    "name": "Gannon",
-    "type": "brawler",
+    "name": "Ganondorf",
+    "type": "Brawler",
     "game": "The Legend of Zelda",
     "tier": 4,
     "total_fights": 0,
@@ -141,8 +141,8 @@
   },
   "greninja": {
     "name": "Greninja",
-    "type": "brawler",
-    "game": "Pokemon",
+    "type": "Brawler",
+    "game": "Pokémon",
     "tier": 4,
     "total_fights": 0,
     "wins": 0,
@@ -151,8 +151,8 @@
   },
   "iceclimbers": {
     "name": "Ice Climbers",
-    "type": "brawler",
-    "game": "Ice Climber",
+    "type": "Brawler",
+    "game": "Ice Climbers",
     "tier": 0,
     "total_fights": 0,
     "wins": 0,
@@ -161,8 +161,8 @@
   },
   "ike": {
     "name": "Ike",
-    "type": "sword",
-    "game": "Fire Emblem: Path of Radiance",
+    "type": "Swordfighter",
+    "game": "Fire Emblem",
     "tier": 6,
     "total_fights": 0,
     "wins": 0,
@@ -171,7 +171,7 @@
   },
   "inkling": {
     "name": "Inkling",
-    "type": "brawler",
+    "type": "Brawler",
     "game": "Splatoon",
     "tier": 6,
     "total_fights": 0,
@@ -181,8 +181,8 @@
   },
   "jigglypuff": {
     "name": "Jigglypuff",
-    "type": "brawler",
-    "game": "Pokemon",
+    "type": "Brawler",
+    "game": "Pokémon",
     "tier": 1,
     "total_fights": 0,
     "wins": 0,
@@ -191,8 +191,8 @@
   },
   "kingdedede": {
     "name": "King Dedede",
-    "type": "brawler",
-    "game": "Kirby's Dream Land",
+    "type": "Brawler",
+    "game": "Kirby",
     "tier": 1,
     "total_fights": 0,
     "wins": 0,
@@ -201,8 +201,8 @@
   },
   "kirby": {
     "name": "Kirby",
-    "type": "brawler",
-    "game": "Kirby's Dream Land",
+    "type": "Brawler",
+    "game": "Kirby",
     "tier": 0,
     "total_fights": 0,
     "wins": 0,
@@ -211,7 +211,7 @@
   },
   "link": {
     "name": "Link",
-    "type": "sword",
+    "type": "Swordfighter",
     "game": "The Legend of Zelda",
     "tier": 5,
     "total_fights": 0,
@@ -221,8 +221,8 @@
   },
   "littlemac": {
     "name": "Little Mac",
-    "type": "brawler",
-    "game": "Captain Rainbow",
+    "type": "Brawler",
+    "game": "Punch-Out!!",
     "tier": 0,
     "total_fights": 0,
     "wins": 0,
@@ -231,8 +231,8 @@
   },
   "lucario": {
     "name": "Lucario",
-    "type": "brawler",
-    "game": "Pokémon Diamond and Pearl",
+    "type": "Brawler",
+    "game": "Pokémon",
     "tier": 2,
     "total_fights": 0,
     "wins": 0,
@@ -241,7 +241,7 @@
   },
   "lucas": {
     "name": "Lucas",
-    "type": "brawler",
+    "type": "Brawler",
     "game": "EarthBound",
     "tier": 3,
     "total_fights": 0,
@@ -251,8 +251,8 @@
   },
   "lucina": {
     "name": "Lucina",
-    "type": "sword",
-    "game": "Fire Emblem Awakening",
+    "type": "Swordfighter",
+    "game": "Fire Emblem",
     "tier": 6,
     "total_fights": 0,
     "wins": 0,
@@ -261,7 +261,7 @@
   },
   "luigi": {
     "name": "Luigi",
-    "type": "brawler",
+    "type": "Brawler",
     "game": "Mario",
     "tier": 1,
     "total_fights": 0,
@@ -271,7 +271,7 @@
   },
   "mario": {
     "name": "Mario",
-    "type": "brawler",
+    "type": "Brawler",
     "game": "Mario",
     "tier": 1,
     "total_fights": 0,
@@ -281,7 +281,7 @@
   },
   "marth": {
     "name": "Marth",
-    "type": "sword",
+    "type": "Swordfighter",
     "game": "Fire Emblem",
     "tier": 6,
     "total_fights": 0,
@@ -291,7 +291,7 @@
   },
   "megaman": {
     "name": "Mega Man",
-    "type": "gunner",
+    "type": "Gunner",
     "game": "Mega Man",
     "tier": 1,
     "total_fights": 0,
@@ -301,8 +301,8 @@
   },
   "metaknight": {
     "name": "Metaknight",
-    "type": "sword",
-    "game": "Kirby's Adventure",
+    "type": "Swordfighter",
+    "game": "Kirby",
     "tier": 4,
     "total_fights": 0,
     "wins": 0,
@@ -311,7 +311,7 @@
   },
   "mewtwo": {
     "name": "Mewtwo",
-    "type": "brawler",
+    "type": "Brawler",
     "game": "Pokémon",
     "tier": 3,
     "total_fights": 0,
@@ -321,7 +321,7 @@
   },
   "mrgameandwatch": {
     "name": "Mr. Game & Watch",
-    "type": "brawler",
+    "type": "Brawler",
     "game": "Game & Watch",
     "tier": 1,
     "total_fights": 0,
@@ -331,7 +331,7 @@
   },
   "ness": {
     "name": "Ness",
-    "type": "brawler",
+    "type": "Brawler",
     "game": "EarthBound",
     "tier": 3,
     "total_fights": 0,
@@ -341,7 +341,7 @@
   },
   "olimar": {
     "name": "Olimar",
-    "type": "brawler",
+    "type": "Brawler",
     "game": "Pikmin",
     "tier": 5,
     "total_fights": 0,
@@ -351,7 +351,7 @@
   },
   "pacman": {
     "name": "Pac-Man",
-    "type": "brawler",
+    "type": "Brawler",
     "game": "Pac-Man",
     "tier": 0,
     "total_fights": 0,
@@ -361,7 +361,7 @@
   },
   "peach": {
     "name": "Peach",
-    "type": "brawler",
+    "type": "Brawler",
     "game": "Mario",
     "tier": 6,
     "total_fights": 0,
@@ -371,7 +371,7 @@
   },
   "pichu": {
     "name": "Pichu",
-    "type": "brawler",
+    "type": "Brawler",
     "game": "Pokémon",
     "tier": 6,
     "total_fights": 0,
@@ -381,7 +381,7 @@
   },
   "pikachu": {
     "name": "Pikachu",
-    "type": "brawler",
+    "type": "Brawler",
     "game": "Pokémon",
     "tier": 5,
     "total_fights": 0,
@@ -391,7 +391,7 @@
   },
   "pit": {
     "name": "Pit",
-    "type": "sword",
+    "type": "Swordfighter",
     "game": "Kid Icarus",
     "tier": 2,
     "total_fights": 0,
@@ -401,7 +401,7 @@
   },
   "pokemontrainer": {
     "name": "Pokemon Trainer",
-    "type": "brawler",
+    "type": "Brawler",
     "game": "Pokémon",
     "tier": 4,
     "total_fights": 0,
@@ -411,8 +411,8 @@
   },
   "ridley": {
     "name": "Redley",
-    "type": "brawler",
-    "game": "Metriod",
+    "type": "Brawler",
+    "game": "Metroid",
     "tier": 3,
     "total_fights": 0,
     "wins": 0,
@@ -421,8 +421,8 @@
   },
   "rob": {
     "name": "R.O.B",
-    "type": "brawler",
-    "game": "Stack-Up & Gyromite",
+    "type": "Brawler",
+    "game": "R.O.B.",
     "tier": 3,
     "total_fights": 0,
     "wins": 0,
@@ -431,8 +431,8 @@
   },
   "robin": {
     "name": "Robin",
-    "type": "sword",
-    "game": "COMEBACK",
+    "type": "Swordfighter",
+    "game": "Fire Emblem",
     "tier": 0,
     "total_fights": 0,
     "wins": 0,
@@ -441,7 +441,7 @@
   },
   "rosalina": {
     "name": "Rosalina",
-    "type": "brawler",
+    "type": "Brawler",
     "game": "Mario",
     "tier": 2,
     "total_fights": 0,
@@ -451,7 +451,7 @@
   },
   "roy": {
     "name": "Roy",
-    "type": "sword",
+    "type": "Swordfighter",
     "game": "Fire Emblem",
     "tier": 5,
     "total_fights": 0,
@@ -461,8 +461,8 @@
   },
   "ryu": {
     "name": "Ryu",
-    "type": "brawler",
-    "game": "Street Fighter Zero",
+    "type": "Brawler",
+    "game": "Street Fighter",
     "tier": 2,
     "total_fights": 0,
     "wins": 0,
@@ -471,8 +471,8 @@
   },
   "samus": {
     "name": "Samus",
-    "type": "gunner",
-    "game": "Metriod",
+    "type": "Gunner",
+    "game": "Metroid",
     "tier": 2,
     "total_fights": 0,
     "wins": 0,
@@ -481,7 +481,7 @@
   },
   "sheik": {
     "name": "Sheik",
-    "type": "brawler",
+    "type": "Brawler",
     "game": "The Legend of Zelda",
     "tier": 4,
     "total_fights": 0,
@@ -491,7 +491,7 @@
   },
   "snake": {
     "name": "Snake",
-    "type": "gunner",
+    "type": "Gunner",
     "game": "Metal Gear",
     "tier": 4,
     "total_fights": 0,
@@ -501,7 +501,7 @@
   },
   "sonic": {
     "name": "Sonic",
-    "type": "brawler",
+    "type": "Brawler",
     "game": "Sonic the Hedgehog",
     "tier": 5,
     "total_fights": 0,
@@ -511,7 +511,7 @@
   },
   "toonlink": {
     "name": "Toon Link",
-    "type": "sword",
+    "type": "Swordfighter",
     "game": "The Legend of Zelda",
     "tier": 3,
     "total_fights": 0,
@@ -521,7 +521,7 @@
   },
   "villager": {
     "name": "Villager",
-    "type": "brawler",
+    "type": "Brawler",
     "game": "Animal Crossing",
     "tier": 2,
     "total_fights": 0,
@@ -531,7 +531,7 @@
   },
   "wario": {
     "name": "Wario",
-    "type": "brawler",
+    "type": "Brawler",
     "game": "Mario",
     "tier": 4,
     "total_fights": 0,
@@ -541,7 +541,7 @@
   },
   "wiifittrainer": {
     "name": "Wii Fit Trainer",
-    "type": "brawler",
+    "type": "Brawler",
     "game": "Wii Fit",
     "tier": 2,
     "total_fights": 0,
@@ -549,19 +549,19 @@
     "losses": 0,
     "image": "resources/img/fighters/wiifittrainer.png"
   },
-  "wiigunner": {
+  "wiiGunner": {
     "name": "Mii Gunner",
-    "type": "gunner",
+    "type": "Gunner",
     "game": "Wii",
     "tier": 2,
     "total_fights": 0,
     "wins": 0,
     "losses": 0,
-    "image": "resources/img/fighters/wiigunner.png"
+    "image": "resources/img/fighters/wiiGunner.png"
   },
   "wiiswordsman": {
     "name": "Mii Swords Man",
-    "type": "sword",
+    "type": "Swordfighter",
     "game": "Pokémon",
     "tier": 3,
     "total_fights": 0,
@@ -571,7 +571,7 @@
   },
   "wolf": {
     "name": "Wolf",
-    "type": "brawler",
+    "type": "Brawler",
     "game": "Star Fox",
     "tier": 5,
     "total_fights": 0,
@@ -581,8 +581,8 @@
   },
   "yoshi": {
     "name": "Yoshi",
-    "type": "brawler",
-    "game": "Yoshi",
+    "type": "Brawler",
+    "game": "Mario",
     "tier": 4,
     "total_fights": 0,
     "wins": 0,
@@ -591,7 +591,7 @@
   },
   "younglink": {
     "name": "Young Link",
-    "type": "sword",
+    "type": "Swordfighter",
     "game": "The Legend of Zelda",
     "tier": 4,
     "total_fights": 0,
@@ -601,7 +601,7 @@
   },
   "zelda": {
     "name": "Zelda",
-    "type": "brawler",
+    "type": "Brawler",
     "game": "The Legend of Zelda",
     "tier": 3,
     "total_fights": 0,
@@ -611,15 +611,12 @@
   },
   "zerosuitsamus": {
     "name": "Zero Suit Samus",
-    "type": "gunner",
-    "game": "Metriod",
+    "type": "Gunner",
+    "game": "Metroid",
     "tier": 3,
     "total_fights": 0,
     "wins": 0,
     "losses": 0,
     "image": "resources/img/fighters/zerosuitsamus.png"
-  },
-
-
-
+  }
 }
