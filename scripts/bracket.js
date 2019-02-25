@@ -47,7 +47,7 @@ function progressPlayer(currentId, player) {
     if (currentId.includes("p")) {
       nextId = 'j4'
     }
-  } else if (currentId = 'winner') {
+  } else if (currentId == 'winner') {
     alert(player + " wins!");
     return;
   }

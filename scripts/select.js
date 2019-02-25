@@ -24,12 +24,8 @@ function checkCheck() {
   }
 
   fs.writeFile(__dirname + '/../resources/json/current_players.json', JSON.stringify(players), function (e) {
-        if (e) throw e;
-        console.log('Player Set Saved!');  });
-    location.href = "../views/bracket.html";
+    if (e) throw e;
+    console.log('Player Set Saved!');
+  });
+  location.href = "../views/bracket.html";
 }
-
-
-
-
-
